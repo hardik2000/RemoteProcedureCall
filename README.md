@@ -20,6 +20,9 @@ sudo apt-get update
 sudo apt-get upgrade
 
 
+
+                    Execution Commands
+
 create function.x
 
 rpcgen -a -C function.x
