@@ -44,3 +44,5 @@ https://github.com/nidhimj22/RPC-Chat-Application
 https://docs.oracle.com/cd/E36784_01/html/E36862/rpcgenpguide-21.html
 
 https://docs.oracle.com/cd/E19504-01/802-5885/6i9k4u0ap/index.html
+
+https://www.youtube.com/watch?v=3NznZwW5Izs
