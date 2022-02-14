@@ -5,13 +5,19 @@
 
                     Instructions to run :
 
-1. rpcinfo #to get info about rpcbind installed or not
-2. sudo apt-get install rpcbind
-3.sudo apt-get install libc-dev-bin
-4. sudo apt-get install gcc
-5. sudo apt-get install make
-6. sudo apt-get update
-7. sudo apt-get upgrade
+rpcinfo #to get info about rpcbind installed or not
+
+sudo apt-get install rpcbind
+
+sudo apt-get install libc-dev-bin
+
+sudo apt-get install gcc
+
+sudo apt-get install make
+
+sudo apt-get update
+
+sudo apt-get upgrade
 
 
 create <fun>.x
