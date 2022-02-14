@@ -3,25 +3,29 @@
 2. Implementation of finding factorial of given number using RPC.
 3. Write a program that returns the current date and time using RPC
 
-                Instructions to run :
+                    Instructions to run :
 
-rpcinfo #to get info about rpcbind installed or not
-sudo apt-get install rpcbind
-sudo apt-get install libc-dev-bin
-sudo apt-get install gcc
-sudo apt-get install make
-sudo apt-get update
-sudo apt-get upgrade
+1. rpcinfo #to get info about rpcbind installed or not
+2. sudo apt-get install rpcbind
+3.sudo apt-get install libc-dev-bin
+4. sudo apt-get install gcc
+5. sudo apt-get install make
+6. sudo apt-get update
+7. sudo apt-get upgrade
 
 
 create <fun>.x
+
 rpcgen -a -C <fun>.x
+
 make -f Makefile.<fun> 
+
 
 Terminal 1->
     sudo ./<fun>_server
+
 Terminal 2->
-sudo ./<fun>_client localhost
+    sudo ./<fun>_client localhost
 
                     Refrences :
 https://www.youtube.com/watch?v=HbBxO5RXNhU
