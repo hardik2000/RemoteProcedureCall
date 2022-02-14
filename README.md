@@ -20,18 +20,18 @@ sudo apt-get update
 sudo apt-get upgrade
 
 
-create <fun>.x
+create function.x
 
-rpcgen -a -C <fun>.x
+rpcgen -a -C function.x
 
-make -f Makefile.<fun> 
+make -f Makefile.function 
 
 
 Terminal 1->
-    sudo ./<fun>_server
+    sudo ./function_server
 
 Terminal 2->
-    sudo ./<fun>_client localhost
+    sudo ./function_client localhost
 
                     Refrences :
 https://www.youtube.com/watch?v=HbBxO5RXNhU
